@@ -1,3 +1,9 @@
-Generating public/private rsa key pair.
-Enter file in which to save the key (/c/Users/User/.ssh/id_rsa): /c/Users/User/.ssh/id_rsa already exists.
-Overwrite (y/n)? 
+
+This is a test file
+This is my secon commit
+
+# code for ssh key keygen;
+ssh-keygen -t rsa -b 4096 -C "kugbiyiadeniyi@gmail.com"
+
+# code to read and copy the generated key;
+cat ~/.ssh/id_rsa.pub
